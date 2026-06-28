@@ -1,0 +1,545 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Karine Moreno Arquitetura: arquitetura comercial, residencial de médio e alto padrão, retrofit, gestão de obras e patologia das construções."
+    >
+    <title>Karine Moreno Arquitetura</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#inicio" aria-label="Karine Moreno Arquitetura">
+        <img
+          class="brand-logo"
+          src="assets/logo-karine-moreno-header.png"
+          alt="Karine Moreno Arquitetura"
+        >
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" data-nav-toggle>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" data-nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#diferenciais">Diferenciais</a>
+        <a href="#clientes">Clientes</a>
+        <a class="nav-cta" href="#contato">Solicitar conversa</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <img src="assets/hero-arquitetura.png" alt="Arquitetura contemporânea com vidro, concreto, madeira e jardim">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Arquitetura estratégica para marcas, negócios e residências</p>
+          <h1>Transformamos espaços em experiências, negócios em referências e imóveis em patrimônios mais valiosos.</h1>
+          <p>
+            Projetos comerciais, residenciais e de retrofit conduzidos com estratégia, rigor técnico e
+            sensibilidade estética, sem perder a essência de cada cliente.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#contato">Solicitar uma conversa</a>
+            <a class="button button-secondary" href="#servicos">Conhecer serviços</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro" id="sobre">
+        <div>
+          <p class="eyebrow">Sobre</p>
+          <h2>Arquitetura com visão técnica, estratégica e estética.</h2>
+        </div>
+        <div class="intro-copy">
+          <div class="about-profile">
+            <figure>
+              <img src="assets/profile/karine-moreno.jpg" alt="Arquiteta Karine Moreno">
+            </figure>
+            <div>
+              <p>
+                A Karine Moreno Arquitetura desenvolve projetos para empresas, investidores e famílias que
+                buscam espaços mais funcionais, valorizados e coerentes com seus objetivos.
+              </p>
+              <p>
+                O escritório atua da concepção ao acompanhamento da obra, unindo design de interiores,
+                experiência do usuário, gestão, retrofit, execução e patologia construtiva para entregar
+                soluções consistentes e duráveis.
+              </p>
+              <div class="metrics">
+                <div>
+                  <strong>01</strong>
+                  <span>arquitetura comercial como foco de autoridade</span>
+                </div>
+                <div>
+                  <strong>02</strong>
+                  <span>residências de médio e alto padrão</span>
+                </div>
+                <div>
+                  <strong>03</strong>
+                  <span>retrofit e patologia das construções</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services" id="servicos">
+        <div class="section-heading">
+          <p class="eyebrow">Serviços</p>
+          <h2>Projetos pensados para gerar valor real.</h2>
+        </div>
+        <div class="service-grid">
+          <article>
+            <span>01</span>
+            <h3>Arquitetura Comercial</h3>
+            <p>Projetos que fortalecem marcas, melhoram a experiência do cliente e valorizam negócios.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Arquitetura Residencial</h3>
+            <p>Residências de médio e alto padrão com funcionalidade, estética e qualidade de vida.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Retrofit e Requalificação</h3>
+            <p>Transformação de imóveis existentes com foco em valorização, atualização e desempenho.</p>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>Gestão e Execução de Obras</h3>
+            <p>Acompanhamento técnico para garantir previsibilidade, qualidade e controle.</p>
+          </article>
+          <article>
+            <span>05</span>
+            <h3>Patologia das Construções</h3>
+            <p>Diagnóstico técnico para identificar, corrigir e prevenir problemas construtivos.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="projects" id="projetos">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Portfólio</p>
+            <h2>Projetos que conectam estética, uso e resultado.</h2>
+          </div>
+          <p class="section-note">
+            Em cada projeto, desenhamos a harmonia entre forma e função, transformando espaços em
+            experiências que refletem a individualidade de cada história.
+          </p>
+        </div>
+
+        <div class="project-tabs" aria-label="Categorias de projetos">
+          <button class="is-active" type="button" data-filter="comercial">Comercial</button>
+          <button type="button" data-filter="interiores">Interiores</button>
+          <button type="button" data-filter="residencial">Residencial</button>
+          <button type="button" data-filter="retrofit">Retrofit</button>
+          <button type="button" data-filter="gestao">Gestão e diagnóstico</button>
+        </div>
+
+        <div class="commercial-projects">
+          <article class="commercial-card large" data-categories="comercial" data-project="mercadinho" data-title="Mercadinho" tabindex="0">
+            <img src="assets/projects/mercadinho.jpg" alt="Projeto comercial de mercadinho com adega e gôndolas">
+            <div>
+              <span>Mercado e conveniência</span>
+              <h3>Mercadinho</h3>
+              <p>Organização de fluxo, exposição de produtos e ambientação para uma compra mais clara e valorizada.</p>
+            </div>
+          </article>
+          <article class="commercial-card" data-categories="comercial" data-project="otica" data-title="Ótica" tabindex="0">
+            <img src="assets/projects/otica.jpg" alt="Projeto comercial de ótica com expositores e atendimento">
+            <div>
+              <span>Varejo especializado</span>
+              <h3>Ótica</h3>
+              <p>Exposição, iluminação e atendimento integrados para destacar produtos e facilitar a escolha.</p>
+            </div>
+          </article>
+          <article class="commercial-card" data-categories="comercial" data-project="quiosque" data-title="Quiosque" tabindex="0">
+            <img src="assets/projects/quiosque.jpg" alt="Projeto de quiosque comercial em shopping">
+            <div>
+              <span>Shopping e quiosque</span>
+              <h3>Quiosque</h3>
+              <p>Presença de marca em área compacta, com leitura rápida, vitrine ativa e operação eficiente.</p>
+            </div>
+          </article>
+          <article class="commercial-card" data-categories="comercial retrofit" data-project="sorveteria" data-title="Sorveteria" tabindex="0">
+            <img src="assets/projects/sorveteria.jpg" alt="Projeto de sorveteria com balcão iluminado e área de consumo">
+            <div>
+              <span>Alimentação</span>
+              <h3>Sorveteria</h3>
+              <p>Ambiente convidativo, balcão de venda valorizado e experiência visual alinhada ao consumo.</p>
+            </div>
+          </article>
+          <article class="commercial-card" data-categories="comercial interiores" data-project="salao-rosa" data-title="Salão Rosa" tabindex="0">
+            <img src="assets/projects/salao-rosa.jpg" alt="Projeto de salão de beleza com bancadas e espelhos">
+            <div>
+              <span>Beleza e bem-estar</span>
+              <h3>Salão Rosa</h3>
+              <p>Interiores com identidade delicada, iluminação de atendimento e conforto para clientes.</p>
+            </div>
+          </article>
+          <article class="commercial-card" data-categories="comercial interiores" data-project="loja-moveis" data-title="Showroom" tabindex="0">
+            <img src="assets/projects/loja-moveis.jpg" alt="Projeto de loja de móveis com ambiente de exposição">
+            <div>
+              <span>Loja de móveis</span>
+              <h3>Showroom</h3>
+              <p>Composição de ambientes, percurso de visita e valorização de materiais para apoiar a venda.</p>
+            </div>
+          </article>
+          <article class="commercial-card" data-categories="comercial interiores" data-project="salao-di-paollo" data-title="Di Paollo Capelli" tabindex="0">
+            <img src="assets/projects/salao-di-paollo.jpg" alt="Projeto de salão Di Paollo com estações de atendimento">
+            <div>
+              <span>Salão profissional</span>
+              <h3>Di Paollo Capelli</h3>
+              <p>Estações de trabalho, espelhos e iluminação planejados para rotina de atendimento e imagem.</p>
+            </div>
+          </article>
+          <article class="commercial-card" data-categories="comercial retrofit" data-project="wc-interlagos" data-title="WC Shopping Interlagos" tabindex="0">
+            <img src="assets/projects/wc-interlagos.jpg" alt="Projeto de banheiro feminino em shopping">
+            <div>
+              <span>Alto fluxo</span>
+              <h3>WC Shopping Interlagos</h3>
+              <p>Requalificação de área de uso intenso com foco em durabilidade, manutenção e percepção de cuidado.</p>
+            </div>
+          </article>
+          <article class="commercial-card" data-categories="comercial retrofit" data-project="wc-uniao" data-title="WC Shopping União" tabindex="0">
+            <img src="assets/projects/wc-uniao.jpg" alt="Projeto de banheiro masculino em shopping">
+            <div>
+              <span>Alto fluxo</span>
+              <h3>WC Shopping União</h3>
+              <p>Soluções técnicas para banheiros comerciais, com atenção à resistência e operação diária.</p>
+            </div>
+          </article>
+          <article class="commercial-card" data-categories="comercial" data-project="capela" data-title="Capela" tabindex="0">
+            <img src="assets/projects/capela.jpg" alt="Projeto institucional de capela com altar iluminado">
+            <div>
+              <span>Institucional</span>
+              <h3>Capela</h3>
+              <p>Espaço de permanência e contemplação, com luz, materialidade e atmosfera como elementos centrais.</p>
+            </div>
+          </article>
+          <article class="commercial-card" data-categories="comercial gestao" data-project="sniper" data-title="Sniper" tabindex="0">
+            <img src="assets/projects/sniper.jpg" alt="Projeto comercial Sniper em obra ou vistoria">
+            <div>
+              <span>Comercial</span>
+              <h3>Sniper</h3>
+              <p>Projeto e acompanhamento com leitura técnica das necessidades do espaço e da operação.</p>
+            </div>
+          </article>
+          <article class="commercial-card" data-categories="interiores residencial" data-project="residencial-projeto-oliva" data-title="Projeto Oliva" tabindex="0">
+            <img src="assets/projects/residencial-projeto-oliva.jpg" alt="Projeto Oliva com interiores residenciais planejados">
+            <div>
+              <span>Residencial e interiores</span>
+              <h3>Projeto Oliva</h3>
+              <p>Ambientes com marcenaria, iluminação e materiais naturais para uma rotina acolhedora e funcional.</p>
+            </div>
+          </article>
+          <article class="commercial-card" data-categories="interiores residencial" data-project="residencial-cozinha-petroleo" data-title="Cozinha Petróleo" tabindex="0">
+            <img src="assets/projects/residencial-cozinha-petroleo.jpg" alt="Cozinha petróleo com armários planejados">
+            <div>
+              <span>Cozinha planejada</span>
+              <h3>Cozinha Petróleo</h3>
+              <p>Projeto de cozinha com composição marcante, aproveitamento inteligente e acabamento contemporâneo.</p>
+            </div>
+          </article>
+          <article class="commercial-card" data-categories="interiores residencial" data-project="residencial-cozinha-terralma" data-title="Cozinha Terralma" tabindex="0">
+            <img src="assets/projects/residencial-cozinha-terralma.jpg" alt="Cozinha Terralma com tons naturais e vista urbana">
+            <div>
+              <span>Cozinha planejada</span>
+              <h3>Cozinha Terralma</h3>
+              <p>Integração entre estética, armazenamento e uso diário com atmosfera leve e materiais quentes.</p>
+            </div>
+          </article>
+          <article class="commercial-card" data-categories="interiores residencial" data-project="residencial-sala-estar-bb" data-title="Sala de Estar BB" tabindex="0">
+            <img src="assets/projects/residencial-sala-estar-bb.jpg" alt="Sala de estar BB com iluminação e painel planejado">
+            <div>
+              <span>Living</span>
+              <h3>Sala de Estar BB</h3>
+              <p>Espaço de convivência com conforto visual, iluminação cênica e soluções sob medida.</p>
+            </div>
+          </article>
+          <article class="commercial-card" data-categories="interiores residencial" data-project="residencial-sala-janta-jr" data-title="Sala de Jantar JR" tabindex="0">
+            <img src="assets/projects/residencial-sala-janta-jr.jpg" alt="Sala de jantar JR com cristaleira iluminada">
+            <div>
+              <span>Sala de jantar</span>
+              <h3>Sala de Jantar JR</h3>
+              <p>Composição elegante para receber, com marcenaria valorizada e iluminação de destaque.</p>
+            </div>
+          </article>
+          <article class="commercial-card" data-categories="interiores residencial" data-project="residencial-quarto-eva" data-title="Quarto Eva" tabindex="0">
+            <img src="assets/projects/residencial-quarto-eva.jpg" alt="Quarto Eva com marcenaria e nichos iluminados">
+            <div>
+              <span>Quarto infantil</span>
+              <h3>Quarto Eva</h3>
+              <p>Ambiente afetivo e funcional, pensado para acolher, organizar e acompanhar o crescimento.</p>
+            </div>
+          </article>
+          <article class="commercial-card" data-categories="gestao" tabindex="0">
+            <img src="assets/projects/patologia-desplacamento.jpg" alt="Desplacamento de revestimento em vistoria técnica">
+            <div>
+              <span>Patologia construtiva</span>
+              <h3>Desplacamento de revestimentos</h3>
+              <p>Investigação de perda de aderência, falhas de execução, umidade e riscos de desprendimento.</p>
+            </div>
+          </article>
+          <article class="commercial-card" data-categories="gestao" tabindex="0">
+            <img src="assets/projects/patologia-recalque.jpg" alt="Sinais de recalque em piso e parede">
+            <div>
+              <span>Patologia construtiva</span>
+              <h3>Recalque e movimentações</h3>
+              <p>Análise de deformações, desníveis e manifestações que podem indicar movimentação estrutural.</p>
+            </div>
+          </article>
+          <article class="commercial-card" data-categories="gestao" tabindex="0">
+            <img src="assets/projects/patologia-infiltracao.jpg" alt="Infiltração e manchas de umidade em parede">
+            <div>
+              <span>Diagnóstico técnico</span>
+              <h3>Infiltração e umidade</h3>
+              <p>Identificação da origem da umidade, impactos nos revestimentos e orientação para correção.</p>
+            </div>
+          </article>
+          <article class="commercial-card" data-categories="gestao" tabindex="0">
+            <img src="assets/projects/patologia-trincas-fissuras.jpg" alt="Trincas e fissuras em parede de alvenaria">
+            <div>
+              <span>Diagnóstico técnico</span>
+              <h3>Trincas e fissuras</h3>
+              <p>Leitura técnica das aberturas para classificar gravidade, possíveis causas e medidas preventivas.</p>
+            </div>
+          </article>
+          <article class="commercial-card" data-categories="gestao" tabindex="0">
+            <img src="assets/projects/patologia-concreto-armadura.jpg" alt="Patologia em concreto armado com armadura exposta">
+            <div>
+              <span>Estruturas de concreto</span>
+              <h3>Corrosão de armadura</h3>
+              <p>Avaliação de cobrimento, oxidação, destacamento do concreto e riscos de evolução da manifestação.</p>
+            </div>
+          </article>
+          <article class="commercial-card" data-categories="gestao" tabindex="0">
+            <img src="assets/projects/patologia-concreto-fissuras.jpg" alt="Fissuras em elemento estrutural de concreto">
+            <div>
+              <span>Estruturas de concreto</span>
+              <h3>Fissuras em vigas e pilares</h3>
+              <p>Inspeção de fissuração em elementos estruturais para orientar correção, prevenção e monitoramento.</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="project-story">
+          <p class="eyebrow">Como apresentaremos os projetos</p>
+          <h3>Cada projeto deve mostrar contexto, desafio, solução e resultado.</h3>
+          <p>
+            Para a próxima etapa, o ideal é selecionar de 6 a 9 projetos reais e organizar cada um com
+            uma foto principal, categoria, local, escopo e uma breve explicação do que foi transformado.
+            Isso deixa o portfólio mais forte do que uma galeria solta de imagens.
+          </p>
+        </div>
+
+        <div class="portfolio-callout">
+          <p>
+            Em cada traço, construímos histórias. Nos espaços, criamos experiências. Na arquitetura e
+            interiores, transformamos sonhos, marcas e patrimônios em lugares com propósito.
+          </p>
+          <a class="button button-outline" href="#contato">Tire seu sonho do papel</a>
+        </div>
+      </section>
+
+      <section class="differentials" id="diferenciais">
+        <div>
+          <p class="eyebrow">Diferenciais</p>
+          <h2>Arquitetura que vai além da estética.</h2>
+        </div>
+        <div class="differential-copy">
+          <p>
+            Acreditamos que a arquitetura deve traduzir propósito, gerar valor e entregar resultados
+            concretos. Por isso, combinamos estratégia, excelência técnica e sensibilidade estética para
+            criar projetos que valorizam patrimônios, fortalecem marcas e transformam espaços em ambientes
+            mais funcionais, eficientes e inspiradores.
+          </p>
+          <p>
+            Da concepção ao acompanhamento da obra, cada escolha é conduzida com rigor e visão estratégica,
+            garantindo qualidade, durabilidade, segurança e soluções que permanecem relevantes ao longo do tempo.
+          </p>
+          <ul class="highlight-list">
+            <li>Design de interiores</li>
+            <li>Experiência do usuário</li>
+            <li>Gestão de obra</li>
+            <li>Retrofit</li>
+            <li>Patologia construtiva</li>
+            <li>Execução</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="audiences">
+        <div class="section-heading">
+          <p class="eyebrow">Para quem</p>
+          <h2>Atuação direcionada para decisões importantes.</h2>
+        </div>
+        <div class="audience-grid">
+          <article>
+            <span>Empresários</span>
+            <p>Donos de lojas, clínicas, franquias, restaurantes, cafeterias, salões e espaços de atendimento.</p>
+          </article>
+          <article>
+            <span>Investidores imobiliários</span>
+            <p>Retrofit, requalificação e valorização de imóveis com leitura técnica e potencial comercial.</p>
+          </article>
+          <article>
+            <span>Famílias</span>
+            <p>Reformas, interiores e residências de médio e alto padrão com identidade e funcionalidade.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="testimonials" id="clientes">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Clientes</p>
+            <h2>Marcas atendidas e experiências de quem já construiu conosco.</h2>
+          </div>
+          <p class="section-note">
+            Relações construídas com acompanhamento próximo, execução técnica e atenção à rotina real de cada espaço.
+          </p>
+        </div>
+
+        <div class="brand-grid" aria-label="Marcas atendidas">
+          <span><img src="assets/logos/shopping-aricanduva.png" alt="Shopping Aricanduva"></span>
+          <span><img src="assets/logos/shopping-uniao-osasco.jpg" alt="Shopping União de Osasco"></span>
+          <span><img src="assets/logos/shopping-interlagos.png" alt="Shopping Interlagos"></span>
+          <span><img src="assets/logos/shopping-interlar.jpg" alt="Shopping Interlar"></span>
+          <span><img src="assets/logos/vigorito.png" alt="Grupo Vigorito"></span>
+        </div>
+
+        <div class="testimonial-grid">
+          <article class="testimonial-card">
+            <div class="testimonial-head">
+              <span class="testimonial-photo"><img src="assets/logos/shopping-uniao-osasco.jpg" alt=""></span>
+              <div>
+                <strong>Shopping União</strong>
+                <span>Obra comercial</span>
+              </div>
+            </div>
+            <div class="stars" aria-label="5 estrelas">★★★★★</div>
+            <p>“Acompanhamento impecável da obra.”</p>
+            <img class="testimonial-logo" src="assets/logos/shopping-uniao-osasco.jpg" alt="Shopping União">
+          </article>
+          <article class="testimonial-card">
+            <div class="testimonial-head">
+              <span class="testimonial-photo"><img src="assets/logos/shopping-interlagos.png" alt=""></span>
+              <div>
+                <strong>Shopping Interlagos</strong>
+                <span>Retrofit e requalificação</span>
+              </div>
+            </div>
+            <div class="stars" aria-label="5 estrelas">★★★★★</div>
+            <p>“Ótima execução, equipe extremamente prestativa.”</p>
+            <img class="testimonial-logo" src="assets/logos/shopping-interlagos.png" alt="Shopping Interlagos">
+          </article>
+          <article class="testimonial-card">
+            <div class="testimonial-head">
+              <span class="testimonial-photo"><img src="assets/logos/vigorito.png" alt=""></span>
+              <div>
+                <strong>Grupo Vigorito</strong>
+                <span>Arquitetura e acompanhamento</span>
+              </div>
+            </div>
+            <div class="stars" aria-label="5 estrelas">★★★★★</div>
+            <p>“Segundo projeto feito com vocês e sempre me surpreendem.”</p>
+            <img class="testimonial-logo" src="assets/logos/vigorito.png" alt="Grupo Vigorito">
+          </article>
+        </div>
+      </section>
+
+      <section class="contact" id="contato">
+        <div>
+          <p class="eyebrow">Contato</p>
+          <h2>Vamos conversar sobre o seu projeto?</h2>
+          <p>
+            Fale com nossa equipe pelo WhatsApp ou envie as primeiras informações pelo formulário.
+            Também deixamos abaixo os espaços para Instagram e e-mail oficiais do escritório.
+          </p>
+          <div class="contact-actions">
+            <a class="button button-primary" href="https://wa.me/5511963528731" target="_blank" rel="noreferrer">
+              Falar pelo WhatsApp
+            </a>
+            <a class="button button-outline" href="mailto:arq.karinemoreno@gmail.com">
+              Enviar e-mail
+            </a>
+          </div>
+          <div class="contact-links">
+            <span>Instagram: @arq.karinemoreno</span>
+            <span>E-mail: arq.karinemoreno@gmail.com</span>
+            <span>WhatsApp: (11) 96352-8731</span>
+          </div>
+        </div>
+        <form class="contact-form">
+          <label>
+            Nome
+            <input type="text" name="nome" placeholder="Seu nome">
+          </label>
+          <label>
+            E-mail
+            <input type="email" name="email" placeholder="voce@email.com">
+          </label>
+          <label>
+            Tipo de projeto
+            <select name="tipo">
+              <option>Arquitetura Comercial</option>
+              <option>Arquitetura Residencial</option>
+              <option>Retrofit e Requalificação</option>
+              <option>Gestão e Execução de Obras</option>
+              <option>Patologia das Construções</option>
+            </select>
+          </label>
+          <label>
+            Mensagem
+            <textarea name="mensagem" rows="4" placeholder="Conte sobre o imóvel, negócio, prazo e objetivo principal"></textarea>
+          </label>
+          <button class="button button-primary" type="submit">Enviar mensagem</button>
+        </form>
+      </section>
+    </main>
+
+    <div class="gallery-modal" data-gallery-modal aria-hidden="true">
+      <div class="gallery-backdrop" data-gallery-close></div>
+      <section class="gallery-dialog" role="dialog" aria-modal="true" aria-labelledby="gallery-title">
+        <button class="gallery-close" type="button" aria-label="Fechar galeria" data-gallery-close>×</button>
+        <div class="gallery-stage">
+          <button class="gallery-arrow" type="button" aria-label="Imagem anterior" data-gallery-prev>‹</button>
+          <img data-gallery-image src="" alt="">
+          <button class="gallery-arrow" type="button" aria-label="Próxima imagem" data-gallery-next>›</button>
+        </div>
+        <div class="gallery-info">
+          <h3 id="gallery-title" data-gallery-title>Projeto</h3>
+          <span data-gallery-count>1 / 1</span>
+        </div>
+      </section>
+    </div>
+
+    <footer class="site-footer">
+      <p>Karine Moreno Arquitetura</p>
+      <div class="footer-actions">
+        <a href="https://www.instagram.com/arq.karinemoreno" target="_blank" rel="noreferrer">Instagram</a>
+        <a href="mailto:arq.karinemoreno@gmail.com">E-mail</a>
+        <a href="https://wa.me/5511963528731" target="_blank" rel="noreferrer">WhatsApp</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
