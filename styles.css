@@ -794,6 +794,8 @@ section:not(.hero) {
   position: relative;
   z-index: 1;
   width: min(1200px, 98%);
+  max-height: calc(100vh - 44px);
+  overflow: auto;
   background: var(--paper);
   box-shadow: var(--shadow);
 }
@@ -818,6 +820,7 @@ section:not(.hero) {
   display: grid;
   grid-template-columns: 54px 1fr 54px;
   align-items: center;
+  min-height: min(85vh, 720px);
   background: #11110f;
 }
 
@@ -826,8 +829,9 @@ section:not(.hero) {
   width: auto;
   max-width: 100%;
   height: auto;
-  max-height: 85vh;
+  max-height: min(80vh, calc(100vh - 140px));
   object-fit: contain;
+  object-position: center;
   margin: 0 auto;
 }
 
